@@ -25,3 +25,10 @@ console.log(perro1);
 
 perro1.correr();
 perro1.emitirSonido();
+
+perro1.nuevoMetodo = function(){
+    console.log("Este es un metodo");
+}
+Perro.prototype.segundoMetodo = function(){
+    console.log("Es otro nuevo metodo");
+}
